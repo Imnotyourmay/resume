@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&amp;family=Noto+Serif+Thai&amp;display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg my-bg2 " id="navbar">
+          <div class="container-fluid"> <a class="navbar-brand text-nav" href="#">
+              <h5> My Resume </h5>
+            </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+              aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-nav" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto"> <a class="nav-link text-nav" href="#about_me">
+                  <h5> About me </h5>
+                </a><a class="nav-link text-nav" href="#education">
+                  <h5> Education </h5>
+                </a> <a class="nav-link text-nav" href="#activity">
+                  <h5> Activity </h5>
+                </a> <a class="nav-link text-nav" href="#skills">
+                  <h5> Skills </h5>
+                </a> <a class="nav-link text-nav" href="#hobby">
+                  <h5> Hobby </h5>
+                </a> <a class="nav-link text-nav" href="#contact">
+                  <h5> Contact </h5>
+                </a> </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row"> <img src="images/header%20%283%29.png" class="img-fluid"
+          alt="header"></div>
+      <div class="row my-bg2">
+        <h6> <br>
+        </h6>
+      </div>
+      <div class="row my-bg1">
+        <div class="col-md-3"></div>
+        <div class="col-md-3"><br>
+          <br>
+          <div>
+            <p align="center"> <img src="images/me.jpg" alt="01" class="rounded-circle my-border"
+                height="170 " width="170"> </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2> <br>
+            <a id="about_me">About me </a></h2>
+          <a id="about_me"> </a>
+          <h6><a id="about_me"> เกิดและเติบโตที่จังหวัดปราจีนบุรี
+              สำเร็จการศึกษาระดับปริญญาตรีสาขาวิชาเอกสารสนเทศศาสตร์และบรรณารักษศาสตร์
+              ได้เข้ารับการฝึกงานที่ศูนย์สารสนเทศ
+              มีความเชี่ยวชาญในด้านการใช้โปรแกรมคอมพิวเตอร์เป็นอย่างดี
+              มีความคิดสร้างสรรค์ดีเยี่ยม</a> <br>
+            <br>
+          </h6>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <div class="row my-bg1">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+          <h6> <br>
+            <br>
+            <br>
+            <p> <b>วันเกิด</b>&nbsp;&nbsp; : &nbsp;&nbsp; 26 พฤษภาคม 2546 </p>
+            <p> <b>ที่อยู่</b> &nbsp; &nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;
+              189/10 หมู่ 11 ตำบลบ้านพระ อำเภอเมือง จังหวัดปราจีนบุรี 25230 </p>
+            <p> <b>เบอร์โทรศัพท์</b> :&nbsp;&nbsp; 093-108-9317 </p>
+            <br>
+          </h6>
+        </div>
+        <div class="col-md-6">
+          <h2> <br>
+            <a id="contact">Contact</a> </h2>
+          <a href="https://www.instagram.com/y_oonjr/" target="_blank" alt="Instragram"><img
+              src="images/pngegg%20%2879%29.png" alt="ig" height="50" width="50"></a>
+          <a href="https://web.facebook.com/thanapornMayyy?locale=th_TH" target="_blank"><img
+              src="images/pngegg%20%2880%29.png" class="mx-3" alt="fb" height="68"
+              width="68"></a> <a href="mailto:thanaporn.boonlikhit@gmail.com" target="_blank"><img
+              src="images/pngegg%20%2881%29.png" alt="mail" height="57" width="57"></a><br>
+          <br>
+        </div>
+      </div>
+      <div class="row text-center my-bg5">
+        <div> <a id="education"><img src="images/educt.png" alt="educt" class="img-fluid"
+              height="400" width="700"></a> </div>
+      </div>
+      <div class="row my-bg1">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <h2> <br>
+            <a id="activity">Activity</a> </h2>
+          <br>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2" aria-label="Slide 3"></button> <button type="button"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button> </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div><img src="images/pic1.png" class="d-block w-100" alt="..."></div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h6>กิจกรรมปฐมนิเทศ</h6>
+                  <h6>กิจกรรมปฐมนิเทศรับนักศึกษาใหม่ที่เข้าเอก
+                    โดยแสดงร่วมกับเพื่อน ๆ ในคณะ</h6>
+                </div>
+              </div>
+              <div class="carousel-item"> <img src="images/pic2.png" class="d-block w-100"
+                  alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h6>กิจกรรมปฐมนิเทศ</h6>
+                  <h6>กิจกรรมปฐมนิเทศรับนักศึกษาใหม่ที่เข้าเอก
+                    โดยแสดงร่วมกับเพื่อน ๆ ในคณะ</h6>
+                </div>
+              </div>
+              <div class="carousel-item"> <img src="images/info.png" class="d-block w-100"
+                  alt="...">
+                <div class="carousel-caption d-none d-md-block"> </div>
+              </div>
+              <div class="carousel-item"> <img src="images/pic4.png" class="d-block w-100"
+                  alt="...">
+                <div class="carousel-caption d-none d-md-block d-xs-block">
+                  <h6>งานอักษราวิชาการ มหาวิทยาลัยศิลปากร</h6>
+                  <h6>จัดบูธประชาสัมพันธ์ และเป็นผู้ดูแลบุคคลที่มาเข้าร่วมงาน</h6>
+                </div>
+              </div>
+              <div class="carousel-item"> <img src="images/pic5.png" class="d-block w-100"
+                  alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h6>งานอักษราวิชาการ มหาวิทยาลัยศิลปากร</h6>
+                  <h6>จัดบูธประชาสัมพันธ์ และเป็นผู้ดูแลบุคคลที่มาเข้าร่วมงาน</h6>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span> </button> <button
+              class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span> </button> </div>
+        </div>
+        <div class="col-md-1"> </div>
+        <div class="col-md-6">
+          <h2><br>
+            <a id="skills">Skills</a> </h2>
+          <div class="row text-center">
+            <div class="col-md-2"> <img src="images/pngegg%20%2882%29.png" alt="ps"
+                height="70" width="70"> </div>
+            <div class="col-md-5"> <img src="images/star.png" alt="1" style="width: 144px; height: 41px;"><br>
+              <h6> ใช้ได้ระดับดีเยี่ยม </h6>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-2"> <img src="images/pngegg%20%2884%29.png" alt="html"
+                height="70" width="70"> </div>
+            <div class="col-md-5"> <img src="images/4star.png" alt="4" style="width: 145px; height: 41px;"><br>
+              <h6> เขียน code ในระดับดี </h6>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-2"> <img src="images/pngegg%20%2883%29.png" alt="php"
+                height="70" width="70"> </div>
+            <div class="col-md-5"> <img src="images/3star.png" alt="4" style="width: 147px; height: 42px;"><br>
+              <h6> เขียน code ในระดับปานกลาง </h6>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-2"> <img src="images/pngegg%20%2885%29%20%281%29.png"
+                alt="inkscape" height="68" width="68"> </div>
+            <div class="col-md-5"> <img src="images/4star.png" alt="4" style="width: 148px; height: 42px;"><br>
+              <h6> ใช้โปรแกรมได้ในระดับดี </h6>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-2"> <img src="images/pngegg%20%2886%29%20%281%29.png"
+                alt="365" style="width: 69px; height: 60px;"> </div>
+            <div class="col-md-5"> <img src="images/star.png" alt="5" style="width: 148px; height: 40px;"><br>
+              <h6> ใช้งานได้ในระดับดีเยี่ยม <br>
+                <br>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-bg4">
+        <div class="col-md-1"> </div>
+        <div class="col-md-5">
+          <h2><br>
+            <a id="hobby">Hobby </a> </h2>
+          <img src="images/headphone.png" alt="1" class="rounded-4 mx-5" style="width: 80px; height: 80px;">
+          <img src="images/editing.png" alt="2" class="rounded-4" style="width: 80px; height: 80px;"><br>
+          <br>
+          <h6> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ฟังเพลง &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ตัดต่อคลิปวิดีโอ<br>
+            <br>
+          </h6>
+        </div>
+        <div class="col-md-6">
+          <h2><br>
+            Language</h2>
+          <img src="images/pngegg%20%2892%29%20%281%29.png" alt="1" class="rounded-4"
+            height="80" width="80"> <img src="images/english.png" alt="2" class="rounded-4 mx-4"
+            style="width: 80px; height: 80px;"> <img src="images/korean.png" alt="3"
+            class="rounded-4" style="width: 80px; height: 80px;"><br>
+          <img src="images/star.png" alt="5" style="width: 80px; height: 23px;">
+          <img src="images/4star.png" class="mx-4" alt="4" style="width: 80px; height: 23px;">
+          <img src="images/3star.png" alt="3" style="width: 80px; height: 23px;"><br>
+        </div>
+      </div>
+      <div class="row my-bg2">
+        <h6><br>
+          <br>
+        </h6>
+      </div>
+      <script>
+                window.onscroll = function () {myFunction()};
+
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+
+                function myFunction() {
+                  if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                  } else {
+                    navbar.classList.remove("sticky");
+                  }
+                }
+                </script> </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+  </body>
+</html>

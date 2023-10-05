@@ -1,0 +1,67 @@
+.my-bg1
+{
+background-color : #fffae4 ;
+}
+h2
+{
+ font-family: 'DM Sans', sans-serif;
+}
+
+h4
+{
+font-family: 'Noto Serif Thai', serif;
+}
+
+h5
+{
+font-family: 'DM Sans', sans-serif;
+}
+
+h6
+{
+font-family: 'Noto Serif Thai', serif;
+}
+
+
+
+.my-bg2
+{
+background-color : #248454 ;
+}
+.text-nav
+{
+color : white;
+}
+.my-bg3
+{
+background-image: url("../images/edu.png");
+}
+
+.my-border {
+  border-style: solid;
+  border-color: #248454;
+  border-width: 7px;
+}
+
+.my-bg4
+{
+ 
+	background-color : #fbea8e;
+}
+.my-bg5
+{
+background-color : #fbea8e;
+}
+
+.text-center
+{
+text-align: center;
+}
+
+nav.sticky
+{
+position: fixed;
+top: 0;
+left: 0;
+}
+
